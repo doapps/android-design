@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/doapps/.android/build-cache/8c102cb2c7cb760a8ef3a715a40ceeb817d43864/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9daa13c380b137664418db19808af212c49d9934">
+        <dex dex="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_61dd98907e5e161d7caaf77938c577315d0d661e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/doapps/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.7.0/2637055420a2da406e3ea9920c2ff4aafd38c970/butterknife-annotations-8.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2637055420a2da406e3ea9920c2ff4aafd38c970">
+        <dex dex="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.7.0_d399e739e977c3f62229e0112e2ccfdcb79e9176/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="91aeaa82567f3fb471417692e5776d30b01f0f07">
+        <dex dex="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1faf5ff41e792db887704ac9c980d19f78e54e4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/doapps/.android/build-cache/3ddb59612a51e6f1c8ec7e2e63e52cec650fdb5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0b7d39c161cecdb6c2b52a1cdc71faf0ffd4626e">
+        <dex dex="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_87f31e38a3087bff635f09ffcc9cb9717fcef567/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/doapps/Desktop/Proyectos/android-design/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e410d00843d11910153bb1f91d60a0018c739d6b/classes.dex" />
+    </item>
+
+</items>
