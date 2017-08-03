@@ -9,3 +9,7 @@
   # Audio en los botones :
 
   El sonido se especificara dependiendo del aplicativo se utiliza el mediaplayer para el audio se crea una carpeta llamada raw donde se guarda los audios y videos.
+
+  # Efectos en las transacciones de los activitys :
+
+  Referencia : https://kylewbanks.com/blog/left-and-right-slide-animations-on-android-activity-or-view
