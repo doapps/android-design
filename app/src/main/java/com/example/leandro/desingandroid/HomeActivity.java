@@ -14,6 +14,9 @@ public class HomeActivity extends AppCompatActivity {
     @BindView(R.id.button_lottie)
     Button buttonLottie;
 
+    @BindView(R.id.button_discreteScrollView)
+    Button buttonDiscreteScrollView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,5 +28,10 @@ public class HomeActivity extends AppCompatActivity {
     @OnClick(R.id.button_lottie)
     public void getLottie() {
         startActivity(new Intent(this, LottieActivity.class));
+    }
+
+    @OnClick(R.id.button_discreteScrollView)
+    public void getDiscrete() {
+        startActivity(new Intent(this, AnimationsActivity.class));
     }
 }
