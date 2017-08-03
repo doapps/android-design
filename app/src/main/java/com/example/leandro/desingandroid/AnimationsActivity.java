@@ -1,24 +1,18 @@
 package com.example.leandro.desingandroid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-
-import com.example.leandro.desingandroid.adapter.TitleAdapter;
-import com.example.leandro.desingandroid.model.Title;
-
-import java.util.ArrayList;
+import android.widget.Button;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class AnimationsActivity extends AppCompatActivity {
 
-    @BindView(R.id.list_recycler)
-    RecyclerView list_recycler;
-
-    private TitleAdapter titleAdapter;
+    @BindView(R.id.button1)
+    Button button1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,22 +20,12 @@ public class AnimationsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_animations);
 
         ButterKnife.bind(this);
-
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-        linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-        list_recycler.setLayoutManager(linearLayoutManager);
-
-        titleAdapter = new TitleAdapter(getListTitle(), this);
-        list_recycler.setAdapter(titleAdapter);
-
     }
 
-    private ArrayList<Title> getListTitle() {
-        ArrayList<Title> list = new ArrayList<>();
+    @OnClick(R.id.button1)
+    public void getbutton1() {
 
-        list.add(new Title(1, "transaciones"));
-        list.add(new Title(2, "detalles"));
+        startActivity(new Intent(this, Slide1Activity.class));
 
-        return list;
     }
 }
