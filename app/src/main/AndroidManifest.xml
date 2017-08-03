@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".LottieActivity" />
-        <activity android:name=".AnimationsActivity"></activity>
+        <activity android:name=".AnimationsActivity" />
+        <activity android:name=".SoundActivity"></activity>
     </application>
 
 </manifest>

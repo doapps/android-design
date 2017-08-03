@@ -37,6 +37,13 @@
                 android:layout_marginTop="10dp"
                 android:text="Animation" />
 
+            <Button
+                android:id="@+id/button_Sound"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sounds" />
+
         </LinearLayout>
 
     </ScrollView>

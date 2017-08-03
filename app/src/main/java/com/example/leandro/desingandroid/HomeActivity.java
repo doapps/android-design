@@ -17,6 +17,9 @@ public class HomeActivity extends AppCompatActivity {
     @BindView(R.id.button_discreteScrollView)
     Button buttonDiscreteScrollView;
 
+    @BindView(R.id.button_Sound)
+    Button buttonSound;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,5 +36,10 @@ public class HomeActivity extends AppCompatActivity {
     @OnClick(R.id.button_discreteScrollView)
     public void getDiscrete() {
         startActivity(new Intent(this, AnimationsActivity.class));
+    }
+
+    @OnClick(R.id.button_Sound)
+    public void getSound() {
+        startActivity(new Intent(this, SoundActivity.class));
     }
 }
